@@ -32,9 +32,10 @@ prerequisites & how to run the test:
 
     The ANT can be downloaded from http://ant.apache.org/bindownload.cgi 
     and further instructions will be found in http://ant.apache.org/manualdownload.cgi.
-    In the build.xml file of ant one of the properties to look for jars is <property name="ws.jars" value="E:\jars"/> thereby ant requires all jars to be avialabe in "E:\jars".
+    
+      In the build.xml file of ant one of the properties to look for jars is <property name="ws.jars" value="E:\jars"/> thereby ant requires all jars to be avialabe in "E:\jars" (change it according to your settings)
+      
     Kindly change this propery according to your computer configurations. The required jar which should be present in the jars directory can be downloaded here https://www.dropbox.com/home/King%20Test 
-
 
     cd till you reach the project and use the below commands
 
