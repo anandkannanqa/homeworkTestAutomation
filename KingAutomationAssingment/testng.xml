@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest">
+
+
+<test name="Login test with incorrect credentials">
+    <classes>
+        <class name="com.kingautomation.salesforce.testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Top menu test of the home page">
+    <classes>
+        <class name="com.kingautomation.salesforce.testcases.MenuTest" ></class>  
+    </classes>
+</test>
+
+<test name="Flex Slider test of the home page">
+    <classes>
+        <class name="com.kingautomation.salesforce.testcases.SliderTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

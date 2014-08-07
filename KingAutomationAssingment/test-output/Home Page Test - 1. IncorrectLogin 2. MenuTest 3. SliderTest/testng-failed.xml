@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest]">
+  <test name="Top menu test of the home page(failed)">
+    <classes>
+      <class name="com.kingautomation.salesforce.testcases.MenuTest">
+        <methods>
+          <include name="topMenuTest"/>
+        </methods>
+      </class> <!-- com.kingautomation.salesforce.testcases.MenuTest -->
+      <class name="com.kingautomation.salesforce.testcases.LoginTest">
+        <methods>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.kingautomation.salesforce.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Top menu test of the home page(failed) -->
+</suite> <!-- Failed suite [Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest] -->

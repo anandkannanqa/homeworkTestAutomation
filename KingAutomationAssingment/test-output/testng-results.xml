@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest" duration-ms="63419" started-at="2014-08-07T17:32:42Z" finished-at="2014-08-07T17:33:46Z">
+    <groups>
+    </groups>
+    <test name="Login test with incorrect credentials" duration-ms="36896" started-at="2014-08-07T17:32:42Z" finished-at="2014-08-07T17:33:19Z">
+      <class name="com.kingautomation.salesforce.testcases.LoginTest">
+        <test-method status="PASS" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kingautomation.salesforce.testcases.LoginTest@3d16e9d8]" name="doIncorrectLogin" duration-ms="18264" started-at="2014-08-07T19:32:42Z" data-provider="getData" finished-at="2014-08-07T19:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw1 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+        <test-method status="PASS" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kingautomation.salesforce.testcases.LoginTest@3d16e9d8]" name="doIncorrectLogin" duration-ms="12665" started-at="2014-08-07T19:33:01Z" data-provider="getData" finished-at="2014-08-07T19:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass2 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+        <test-method status="PASS" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kingautomation.salesforce.testcases.LoginTest@3d16e9d8]" name="doIncorrectLogin" duration-ms="3181" started-at="2014-08-07T19:33:13Z" data-provider="getData" finished-at="2014-08-07T19:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw3 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+        <test-method status="PASS" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kingautomation.salesforce.testcases.LoginTest@3d16e9d8]" name="doIncorrectLogin" duration-ms="2758" started-at="2014-08-07T19:33:16Z" data-provider="getData" finished-at="2014-08-07T19:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+      </class> <!-- com.kingautomation.salesforce.testcases.LoginTest -->
+    </test> <!-- Login test with incorrect credentials -->
+    <test name="Top menu test of the home page" duration-ms="21720" started-at="2014-08-07T17:33:19Z" finished-at="2014-08-07T17:33:41Z">
+      <class name="com.kingautomation.salesforce.testcases.MenuTest">
+        <test-method status="PASS" signature="topMenuTest()[pri:0, instance:com.kingautomation.salesforce.testcases.MenuTest@1d59bc95]" name="topMenuTest" duration-ms="21717" started-at="2014-08-07T19:33:19Z" finished-at="2014-08-07T19:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topMenuTest -->
+      </class> <!-- com.kingautomation.salesforce.testcases.MenuTest -->
+    </test> <!-- Top menu test of the home page -->
+    <test name="Flex Slider test of the home page" duration-ms="4726" started-at="2014-08-07T17:33:41Z" finished-at="2014-08-07T17:33:46Z">
+      <class name="com.kingautomation.salesforce.testcases.LoginTest">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.kingautomation.salesforce.testcases.LoginTest@3d16e9d8]" name="CloseBrowser" is-config="true" duration-ms="1655" started-at="2014-08-07T19:33:46Z" finished-at="2014-08-07T19:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.kingautomation.salesforce.testcases.LoginTest -->
+      <class name="com.kingautomation.salesforce.testcases.SliderTest">
+        <test-method status="PASS" signature="FlexSliderTest()[pri:0, instance:com.kingautomation.salesforce.testcases.SliderTest@19e02860]" name="FlexSliderTest" duration-ms="4723" started-at="2014-08-07T19:33:41Z" finished-at="2014-08-07T19:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlexSliderTest -->
+      </class> <!-- com.kingautomation.salesforce.testcases.SliderTest -->
+    </test> <!-- Flex Slider test of the home page -->
+  </suite> <!-- Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest -->
+</testng-results>
