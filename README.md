@@ -24,9 +24,9 @@ ENVIRONMENT USED
 prerequisites & how to run the test:
 -----------------------------
 
-    Selenium jars need to be extracted from the jars.zip folder https://www.dropbox.com/home/King%20Test
-
-    TestNG is required to be installed if the test is directly run from the IDE.
+    Selenium jars need to be added to the project 
+    
+    TestNG is required to be installed 
 
     ANTS should be configured to run the test from command line: 
 
